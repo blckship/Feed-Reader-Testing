@@ -73,7 +73,7 @@ $(function () {
         it('toggle menu event', function () {
 
             $('.menu-icon-link').trigger('click');
-            expect($('body').hasClass('menu-hidden')).toBe(false);
+            expect($('body').hasClass('menu-hidden')).toBe(true);
             $('.menu-icon-link').trigger('click');
             expect($('body').hasClass('menu-hidden')).toBe(true);
         });
