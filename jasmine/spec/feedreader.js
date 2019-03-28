@@ -75,7 +75,7 @@ $(function () {
             $('.menu-icon-link').trigger('click');
             expect($('body').hasClass('menu-hidden')).toBe(true);
             $('.menu-icon-link').trigger('click');
-            expect($('body').hasClass('menu-hidden')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(false);
         });
 
         /* TODO: Write a new test suite named "Initial Entries" */
